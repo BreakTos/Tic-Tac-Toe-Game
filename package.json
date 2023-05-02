@@ -1,5 +1,6 @@
 {
   "name": "tictac",
+  "homepage": "https://BreakTos.github.io/Tic-Tac-Toe-Game",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
