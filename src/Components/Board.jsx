@@ -40,7 +40,7 @@ const Board=()=>{
     return(
     <div className="board-container">
 
-            { isWinner ? <> {isWinner} won the game <button onClick={()=> clear()}> Play Again </button> </>:<><div className="board-row">
+            { isWinner ? <> {isWinner} won the game <button className="btn" onClick={()=> clear()}> Play Again </button> </>:<><div className="board-row">
             <Square onClick={()=> handleClick(0)} value={state[0]}/>
             <Square onClick={()=> handleClick(1)} value={state[1]}/>
             <Square onClick={()=> handleClick(2)} value={state[2]}/>
